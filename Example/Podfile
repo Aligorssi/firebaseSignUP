@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'firebase_Example' do
+  pod 'firebase', :path => '../'
+
+  target 'firebase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
