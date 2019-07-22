@@ -1,0 +1,16 @@
+PODS:
+  - firebase (0.1.0)
+
+DEPENDENCIES:
+  - firebase (from `../`)
+
+EXTERNAL SOURCES:
+  firebase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  firebase: 90d7e54c95795f011a708824533daa8679f3be27
+
+PODFILE CHECKSUM: d1994dd8ef0fd168396bf1bbef445af3ca3de00f
+
+COCOAPODS: 1.7.5
