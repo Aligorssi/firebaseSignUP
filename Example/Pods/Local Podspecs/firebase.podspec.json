@@ -1,9 +1,9 @@
 {
   "name": "firebase",
   "version": "0.1.0",
-  "summary": "A short description of firebase.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/aligorssi/firebase",
+  "summary": "This is base for firebase sigup using phone number.",
+  "description": "TODO: Add long description of the pod here. This is base for firebase sigup using phone number.",
+  "homepage": "https://github.com/aligorssi/firebaseSignUP",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,29 @@
     "aligorssi": "ali.gorssi@gmail.com"
   },
   "source": {
-    "git": "https://github.com/aligorssi/firebase.git",
+    "git": "https://github.com/aligorssi/firebaseSignUP.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "firebase/Classes/**/*"
+  "swift_versions": "4.0",
+  "static_framework": true,
+  "source_files": "firebase/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Firebase/Core": [
+
+    ],
+    "Firebase/Database": [
+
+    ],
+    "Firebase/Firestore": [
+
+    ],
+    "Firebase/Auth": [
+
+    ]
+  },
+  "swift_version": "4.0"
 }
