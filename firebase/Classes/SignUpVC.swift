@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseAuth
 
 class SignUpVC: UIViewController {
 
@@ -17,7 +17,7 @@ class SignUpVC: UIViewController {
     let signupCheckKey = "signupCheckKey"
     let verificatioIDKey = "verificationID"
     
-    let myActivityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
+    let myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorView.Style.gray)
     
     
     override func viewDidLoad() {
@@ -54,7 +54,7 @@ class SignUpVC: UIViewController {
                 self.showAlert(title: "Error", msg: "Please enter full phone number.")
             }else{
                 activityIndicator()
-                PhoneAuthProvider.provider().verifyPhoneNumber(txtInputField.text!, uiDelegate: nil) { (verificationID, error) in
+                PhoneAuthProvider.provider().verifyPhoneNumber(txtInputText.text!, uiDelegate: nil) { (verificationID, error) in
                     if error == nil{
                         
                         print("registered")

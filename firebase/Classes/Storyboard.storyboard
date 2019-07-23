@@ -13,7 +13,7 @@
         <!--Sign UpVC-->
         <scene sceneID="r11-VF-5Eo">
             <objects>
-                <viewController storyboardIdentifier="SignUpVC" id="pEr-QX-y4z" customClass="SignUpVC" customModule="firebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpVC" id="pEr-QX-y4z" customClass="SignUpVC" customModule="FirebaseAuth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8m9-ZJ-9j4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
