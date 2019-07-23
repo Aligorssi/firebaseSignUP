@@ -31,6 +31,8 @@ TODO: Add long description of the pod here. This is base for firebase sigup usin
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
   s.static_framework = true
+  
+  #new text
 
   s.source_files = 'firebase/Classes/**/*'
   
