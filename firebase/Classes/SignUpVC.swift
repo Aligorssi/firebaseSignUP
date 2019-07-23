@@ -17,6 +17,8 @@ class SignUpVC: UIViewController {
     let signupCheckKey = "signupCheckKey"
     let verificatioIDKey = "verificationID"
     
+    let abc = "ABC"
+    
     let myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorView.Style.gray)
     
     
